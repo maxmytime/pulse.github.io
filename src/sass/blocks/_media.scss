@@ -42,4 +42,19 @@
             width: 100px;
         }
     }
+
+    .consultation {
+        .title_left {
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
+
+    .feed-form {
+        margin: 36px auto 0 auto;
+        width: auto;
+    }
+
 }
