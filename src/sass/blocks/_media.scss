@@ -4,6 +4,17 @@
     }
 }
 
+@media screen and (max-width: 930px) {
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin: 0 15px 20px 15px;
+        }
+    }
+}
+
 @media screen and (max-width: 700px) {
     .header {
         display: flex;
@@ -57,4 +68,24 @@
         width: auto;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    .catalog {
+        &__tab {
+            font-size: 12px;
+            width: 150px;
+        }
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+        &__tab {
+            margin-bottom: 15px;
+        }
+    }
 }
