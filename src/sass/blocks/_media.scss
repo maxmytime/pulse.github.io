@@ -77,6 +77,22 @@
             width: 150px;
         }
     }
+
+    .feedback {
+        &-item {
+            flex-direction: column;
+            align-items: center;
+            &__img {
+                margin-bottom: 30px;
+            }
+            &__content {
+                text-align: center;
+                margin-left: 0;
+            }
+        }
+    }
+
+
 }
 
 @media screen and (max-width: 440px) {
@@ -88,4 +104,5 @@
             margin-bottom: 15px;
         }
     }
+
 }

@@ -1,0 +1,29 @@
+.feedback {
+    &__container{
+        margin-top: 70px;
+    }
+    &-item {
+        display: flex;
+        margin-bottom: 35px;
+        &__img {
+            width: 169px;
+            height: 169px;
+        }
+        &__content {
+            margin-left: 60px;
+        }
+        &__header {
+            font-size: 18px;
+            margin: 0;
+        }
+        &__subheader {
+            font-size: 14px;
+            color: #646464;
+            margin-bottom: 20px;
+        }
+        &__review {
+            font-size: 16px;
+            margin: 0 0 25px 0;
+        }
+    }
+}
