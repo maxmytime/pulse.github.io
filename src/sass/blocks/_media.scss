@@ -92,6 +92,26 @@
         }
     }
 
+}
+
+@media screen and (max-width: 470px) {
+    .footer {
+        height: 630px;
+        position: relative;
+        &__info {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: auto;
+            background-color: $main-color;
+            padding: 50px 68px 60px 68px;
+        }
+        &__social-item {
+            margin: 0 5px;
+        }
+    }
 
 }
 
